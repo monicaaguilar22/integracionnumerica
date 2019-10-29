@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Integracion | Metodo del trapecio</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="integral">
+      <input type="text" placeholder="b" name="limiteSuperior" id="limiteSuperior">
+      <span>&int;</span>
+      <input type="text" placeholder="a" name="limiteInferior" id="limiteInferior">
+    </div>
+    <div class="sen">
+      <p>sen<span><input type="text" placeholder="pot" id="pow"><input type="text" value="x"
+            id="valorx" ></span>dx</p>
+    </div>
+    <input type="text" placeholder="numero de iteraciones" id="numeroIteraciones">
+  </div>
+  <div class="inferior">
+    <input type="button" value="Calcular integracion numerica" id="calcular">
+    <span class="respuesta"></span>
+  </div>
+  <script src="integracion.js"></script>
+</body>
+
+</html>

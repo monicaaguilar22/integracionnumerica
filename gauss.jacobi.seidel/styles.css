@@ -1,0 +1,36 @@
+body {
+  background-image: linear-gradient(to right top, #9b2c92, #b42d8d, #ca3287, #de3b7f, #ee4877, #f75b6c, #fd6f62, #ff835b, #ffa055, #ffbd55, #ffdb5e, #f9f871);
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-box {
+  max-width: 960px;
+  background-color: white;
+  color: black;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+  resize: none;
+}
+
+.result-box {
+  background-color: lightgray;
+  margin: 0 0 10px 5px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.result-box p {
+  margin: 5px;
+}
+
+
+.result-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}

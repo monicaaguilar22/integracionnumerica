@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.integral {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  align-items: center;
+}
+.integral > input {
+  width: 30px;
+  border: none;
+  text-align: right;
+  outline-style: none;
+  font-size: 18px;
+}
+.integral > span {
+  font-size: 50px;
+}
+.sen p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+}
+
+.sen span {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-15px);
+}
+.sen span #valorx {
+  align-self: flex-start;
+  width: 30px;
+  font-size: 30px;
+  text-align: right;
+  border: none;
+  background: #fff;
+}
+
+.sen span #pow {
+  align-self: flex-end;
+  width: 40px;
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+#numeroIteraciones {
+  height: 20px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+.inferior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input[type='button'] {
+  background: royalblue;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border-right: rgb(28, 48, 107);
+  border-top: rgb(28, 48, 107);
+  font-size: 20px;
+}
